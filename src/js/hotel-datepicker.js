@@ -101,6 +101,7 @@ export default class HotelDatepicker {
 	}
 
 	setFechaI18n() {
+        fecha.i18n = {};
 		fecha.i18n.dayNamesShort = this.i18n['day-names-short'];
 		fecha.i18n.dayNames = this.i18n['day-names'];
 		fecha.i18n.monthNamesShort = this.i18n['month-names-short'];
